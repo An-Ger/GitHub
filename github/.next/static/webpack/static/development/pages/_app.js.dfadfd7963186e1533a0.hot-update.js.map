@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static/development/pages/_app.js.dfadfd7963186e1533a0.hot-update.js","sources":["webpack:///./pages/_app.js"],"sourcesContent":["import App from 'next/app'\nimport 'antd/dist/antd.css'\nexport default App"],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;AACA;;;;A","sourceRoot":""}
