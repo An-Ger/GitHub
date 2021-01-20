@@ -1,5 +1,27 @@
 {
+  "name": "github",
+  "version": "1.0.0",
+  "description": "GitHub Api &amp;&amp; New Redis基本使用 set b 1 set a 2 get a  get b setex c 10 1 c在十秒之后就会消失 get c  // 1 KEYs * 查询所有已经存储的数据  set session:sessionID 123 get session:sessionID redis-server redis-cli 在新窗口中打开数据库连接 redis-cli中输入shutdown命令关闭数据库连接 DEL a 删除数据",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An-Ger/GitHub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/An-Ger/GitHub/issues"
+  },
+  "homepage": "https://github.com/An-Ger/GitHub#readme",
   "dependencies": {
-    "antd": "^3.23.3"
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
