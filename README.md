@@ -62,6 +62,10 @@ Hooks闭包陷阱：回调执行的时候，每次拿到的值都是setState中�
 每次重新渲染之前，都会调用useEffect
 useLayoutEffect比useEffect之前执行
 
+yarn create next-app Name
+npx create-next-app Name
+
+
 
 
 
