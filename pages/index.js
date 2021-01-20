@@ -1,3 +1,3 @@
+import {Button} from 'antd'
 
-
-export default () => <span>Index</span>
+export default () => <Button>Index</Button>

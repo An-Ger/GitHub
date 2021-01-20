@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
@@ -22,6 +22,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "antd": "3.23.3",
+    "babel-plugin-import": "^1.13.3",
     "ioredis": "^4.19.4",
     "koa": "^2.13.1",
     "koa-router": "^10.0.0",
