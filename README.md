@@ -65,7 +65,7 @@ useLayoutEffect比useEffect之前执行
 yarn create next-app Name
 npx create-next-app Name
 
-
+路由映射一旦刷新就会404，因为并没有真正代表该路由的文件
 
 
 

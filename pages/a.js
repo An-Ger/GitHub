@@ -1,4 +1,22 @@
-import Comp from '../components/comp'
-import {withRouter} from 'next/router'
-const A =  ({router}) => <Comp>A{router.query.id}</Comp>
-export default withRouter(A)
+import Comp from "../components/comp";
+import { withRouter } from "next/router";
+import Link from "next/link";
+const A = ({ router, name }) => (
+  <Link href="#aaa">
+    <a>
+      A{router.query.id}
+      {name}
+    </a>
+  </Link>
+);
+A.getInitialProps = async () => {
+    const promise = new Promise ((resolve) => {
+        setTimeout(() => {
+            resolve({
+                name: 'Fucker'
+            })
+        }, 1000)
+    })
+  return await promise;
+};
+export default withRouter(A);

@@ -8,7 +8,7 @@ export default () => {
             query: {
                 id: 2
             }
-        })
+        }, '/test/b/2')
     }
 return (
     <>
