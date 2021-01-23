@@ -1,3 +1,3 @@
 
 
-export default ({children}) => <button>{children}</button>
+export default ({children}) => <span>Lazzy Component</span>
