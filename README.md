@@ -70,4 +70,6 @@ LazyLoading
 异步加载模块，异步加载组件
 yarn add momonet
 
-
+steCount(1)不基于最新的值
+但是传入回调函数会基于最新的值
+Redux存取公用数据

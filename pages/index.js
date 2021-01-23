@@ -1,4 +1,5 @@
 import Router from 'next/router'
+import store from '../store/store'
 export default () => {
     function gotoTestB () {
         Router.push({
