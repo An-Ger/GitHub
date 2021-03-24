@@ -15,6 +15,10 @@ redis-cli 在新窗口中打开数据库连接
 redis-cli中输入shutdown命令关闭数据库连接
 DEL a 删除数据
 
+"dev":"next",
+    "build": "next build",
+    "start": "next start"
+
 yarn add zeit@nexr-css
 创建next.config.js文件引入css的使用
 const withCss = require('@zeit/next-css')
